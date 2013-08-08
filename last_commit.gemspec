@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name        = "last_commit"
-  gem.version     = "0.0.2"
+  gem.version     = "0.1.0"
   gem.authors     = ["Tomasz Wałkuski"]
   gem.email       = ["ja@jestem.tw"]
   gem.description = "Simple utility class to get last commit info from git repository."
