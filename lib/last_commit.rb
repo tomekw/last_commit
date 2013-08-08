@@ -6,6 +6,10 @@ class LastCommit
     self.branch              = branch
   end
 
+  def author
+    last_commit.author.name
+  end
+
   def message
     last_commit.message
   end

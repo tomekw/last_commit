@@ -29,6 +29,7 @@ require "last_commit"
 
 last_commit = LastCommit.new("#{ENV["HOME"]}/git/repo/path", "master")
 
+last_commit.author  # "Tomek Wałkuski"
 last_commit.message # "Initial commit"
 last_commit.sha     # "08feadfc6075dbeb696aa61e9d21383b2a6a0f0e"
 ```
